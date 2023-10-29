@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: linear-gradient(rgb(164, 157, 157),black ); */
+    background-color: black;
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+}
+span:last-child{
+    color: red;
+}
+button{
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 1px solid red;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-size: large;
+}
+button:hover{
+    background-color: rgb(255, 20, 20);
+    border: 1px solid rgb(255, 20, 20);
+}
+.stop{
+    display:none;
+}
+.reset{
+    display: none;
+}
